@@ -2,14 +2,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 import React, { useState, useEffect } from "react";
-
-interface SearchBarProps {
-  initialValue?: string;
-  onSearch: (search: string) => void;
-  placeholder?: string;
-  className?: string;
-  showButton?: boolean;
-}
+import type { SearchBarProps } from "@/lib/types";
 
 const SearchBar: React.FC<SearchBarProps> = ({
   initialValue = "",
