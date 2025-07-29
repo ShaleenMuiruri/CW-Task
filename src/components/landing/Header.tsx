@@ -3,10 +3,10 @@ import SearchBar from "@/components/shared/SearchBar";
 
 export default function Header() {
     return (
-      <header className="flex items-center justify-between px-6 py-4 bg-black border-b border-gray-800">
+      <header className="flex items-center justify-between px-6 py-4 border-b border-gray-500">
         <div className="flex items-center gap-2">
-          <img src="/task1/logo.png" alt="Logo" className="w-10 h-10" />
-          <div className="text-white font-semibold text-lg">Wortionary</div>
+          <img src="/task1/logo.png" alt="Logo" className="w-4 h-4" />
+          <p className="text-white font-semibold text-lg">Worctionary</p>
         </div>
   
         <div className="flex items-center gap-4">
