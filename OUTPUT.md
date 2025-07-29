@@ -22,3 +22,17 @@
 3. ...
    - Issue: ...
    - Fix: ...
+
+## Changes Made
+
+
+### Folder Structure
+- Refactored the project structure to separate concerns and improve readability.
+- Created individual files for the landing page components: 'Header', 'TagList', and 'Hero' (renamed from the previous 'BoxArea97' for clarity).
+- Removed the obsolete 'BoxArea108' component
+- Created a 'types' folder for TypeScript interfaces
+
+
+### Reusable Components
+- Introduced a reusable 'Searchbar' component.
+
